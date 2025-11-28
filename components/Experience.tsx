@@ -11,16 +11,14 @@ const Experience = (): JSX.Element => (
       </span>
     </h3>
 
-    {/* <div className="w-full mt-12 space-y-10 bg-[red]"> */}
-    <div className="w-full mt-12 bg-[red]">
+    <div className="w-full mt-12 space-y-10">
       {workExperience.map(
         ({ id, company, title, period, location, desc, skills }) => (
-          // ({ id, company, title, period, location, skills }) => (
           <Sparkle
             key={id}
             duration={Math.floor(Math.random() * 10000) + 10000}
           >
-            <div className="p-3 md:p-5 lg:p-10 bg-[green] w-full">
+            <div className="p-3 md:p-5 lg:p-10 w-full">
               <div className="text-start">
                 <div className="flex justify-between">
                   <div>

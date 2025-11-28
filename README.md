@@ -1,218 +1,112 @@
-<div align="center">
-  <br />
-  <a href="https://codewithty.dev/" target="_blank">
-  </a>
-  <br />
+# Portfolio Template
 
-  <div>
-    <a href="https://nextjs.org/" target="_blank">
-      <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    </a>
-    <a href="https://www.framer.com/motion/" target="_blank">
-      <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
-    </a>
-    <a href="https://tailwindcss.com/docs" target="_blank">
-      <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    </a>
-  </div>
+A modern, responsive portfolio website template built with cutting-edge web technologies. This template provides a sleek and professional way to showcase your projects, experience, and skills.
 
-  <h3 align="center">CodeWithTy Developer Portfolio Template</h3>
-  <p align="center">A modern, professional, and tech-focused portfolio template built for developers who want to showcase their skills and projects with style. Perfect for tech enthusiasts, web developers, and cybersecurity professionals.</p>
-</div>
+## Tech Stack
 
-## 📋 Table of Contents
+This project leverages the following technologies and tools:
 
-1. 💡 [Why This Project?](#why-this-project)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🛠️ [Features](#features)
-4. 🚀 [Getting Started](#getting-started)
-5. 🌟 [Portfolio Inspiration](#portfolio-inspiration)
-6. 🎓 [About CodeWithTy](#about-codewithty)
-7. 📝 [More Resources](#more-resources)
+- **Framework:** Next.js 14.1.4 - A React framework for production-grade web applications
+- **Language:** TypeScript 5 - For type-safe JavaScript development
+- **Styling:** Tailwind CSS 3.3.0 - A utility-first CSS framework for rapid UI development
+- **Animations:** Framer Motion 11.0.25 - A production-ready motion library for React
+- **Deployment:** Vercel 34.0.0 - A platform for frontend frameworks and static sites
+- **Linting:** ESLint 8 - A tool for identifying and reporting on patterns in JavaScript/TypeScript
+- **Build Tools:**
+  - PostCSS 8 - A tool for transforming CSS with JavaScript
+  - Autoprefixer 10.0.1 - A PostCSS plugin to parse CSS and add vendor prefixes
+- **Utilities:**
+  - clsx 2.1.0 - A tiny utility for constructing className strings conditionally
+  - tailwind-merge 2.2.2 - Utility for merging Tailwind CSS classes
+  - tailwindcss-animate 1.0.7 - Tailwind CSS plugin for animations
+  - mini-svg-data-uri 1.4.4 - A function to generate mini SVG data URIs
 
-## 💡 Why This Project?
+## Features
 
-Hey there, future tech leader! 👋
+- Responsive design optimized for all devices
+- Smooth animations and transitions
+- Modular component architecture
+- TypeScript for enhanced developer experience
+- SEO-friendly with Next.js
+- Easy deployment to Vercel
 
-At CodeWithTy, we believe that every developer deserves a portfolio that truly represents their skills and potential. Whether you're just starting your coding journey or you're a seasoned professional looking to showcase your expertise in web development, cybersecurity, blockchain, or mobile development - this template has got you covered.
-
-We've seen too many talented developers struggle with creating the perfect portfolio, spending more time on design than actually building amazing projects. That's why we created this **modern, responsive, and professional** template that lets your work speak for itself.
-
-## ⚙️ Tech Stack
-
-Built with the same cutting-edge technologies we teach at CodeWithTy:
-
-- **Next.js 14**: The React framework for production-grade applications
-- **Framer Motion**: Smooth, professional animations that impress recruiters
-- **TailwindCSS**: Utility-first CSS for rapid, responsive design
-- **TypeScript**: Type-safe development for enterprise-quality code
-- **Modern Web Standards**: Built with accessibility and performance in mind
-
-## 🛠️ Features
-
-✨ **Responsive Design**: Looks amazing on desktop, tablet, and mobile devices
-
-🎨 **Professional UI/UX**: Clean, modern design that highlights your technical skills
-
-🔐 **Security-First**: Built with best practices for web security (just like we teach!)
-
-🚀 **Performance Optimized**: Fast loading times and smooth interactions
-
-🎬 **Smooth Animations**: Professional motion design that sets you apart
-
-🔧 **Developer Experience**: Clean code structure, easy to customize and extend
-
-💼 **Portfolio Sections**:
-
-- Hero section with animated introduction
-- Skills showcase for multiple tech domains
-- Project gallery with detailed case studies
-- Experience timeline
-- Contact form with modern styling
-
-🌟 **Multi-Domain Focus**: Perfect for showcasing skills in:
-
-- Web Development
-- Cybersecurity
-- Blockchain & Smart Contracts
-- Mobile App Development
-- Data Analysis
-- Tech Consulting
-
-## 🚀 Getting Started
-
-Ready to build your professional portfolio? Let's get you set up in minutes!
+## Getting Started
 
 ### Prerequisites
 
-Make sure you have these tools installed:
+- Node.js (version 18 or higher)
+- npm or yarn package manager
 
-- [Git](https://git-scm.com/) - Version control
-- [Node.js](https://nodejs.org/) (v18 or higher) - JavaScript runtime
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) - Package manager
+### Installation
 
-### Clone the Repository
+1. Clone the repository:
 
-```bash
-git clone https://github.com/codewithty/portfolio-template.git
-cd codewithty-portfolio-template
+   ```bash
+   git clone https://github.com/your-username/portfolio-template.git
+   cd portfolio-template
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## Available Scripts
+
+- `npm run dev` - Starts the development server
+- `npm run build` - Builds the app for production
+- `npm run start` - Starts the production server
+- `npm run lint` - Runs ESLint for code linting
+- `npm run deploy` - Deploys the app to Vercel
+
+## Project Structure
+
+```
+portfolio-template/
+├── app/                    # Next.js app directory
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Home page
+├── components/            # Reusable React components
+│   ├── ui/               # UI components
+│   └── ...               # Feature components
+├── data/                 # Static data files
+├── lib/                  # Utility functions
+├── public/               # Static assets
+└── ...                   # Configuration files
 ```
 
-### Install Dependencies
+## Customization
 
-```bash
-# Using npm
-npm install
+1. Update the content in `data/index.ts` to personalize your portfolio
+2. Modify components in the `components/` directory to match your design preferences
+3. Adjust styles using Tailwind CSS classes or by editing `app/globals.css`
+4. Configure deployment settings in `next.config.js` and `vercel.json` (if applicable)
 
-# Or using yarn
-yarn install
-```
+## Contributing
 
-### Customize Your Content
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Update `src/data/index.ts` with your information
-2. Add your projects to `src/data/index.ts`
-3. Customize colors in `tailwind.config.js`
-4. Replace images in `public/assets/`
+## License
 
-### Run the Development Server
+This project is open source and available under the [MIT License](LICENSE).
 
-```bash
-# Using npm
-npm run dev
+## Acknowledgments
 
-# Or using yarn
-yarn dev
-```
-
-Visit [http://localhost:3000](http://localhost:3000) to see your portfolio come to life! 🎉
-
-### Deploy Your Portfolio
-
-Deploy easily to:
-
-- **Vercel** (Recommended): `vercel --prod`
-- **Netlify**: Connect your GitHub repo
-- **GitHub Pages**: Use the included GitHub Actions workflow
-
-## 🌟 Portfolio Inspiration
-
-Check out these amazing portfolios built by us:
-
-- [Tech Professional Examples](https://codewithty.dev/projects) - Industry-standard portfolio designs
-
-## 🎓 About CodeWithTy
-
-**CodeWithTy** is more than just a coding education platform - we're a community of tech enthusiasts, problem solvers, and future innovators. We specialize in:
-
-🌐 **Web Development**: Building responsive, interactive websites with modern frameworks
-
-🔒 **Cybersecurity**: Protecting systems and data from cyber threats
-
-⛓️ **Blockchain Development**: Creating decentralized applications and smart contracts
-
-📱 **Mobile App Development**: Native and cross-platform mobile solutions
-
-📊 **Data Analysis**: Turning data into actionable business insights
-
-💼 **Tech Consulting**: Strategic technology guidance for businesses
-
-### Why Choose CodeWithTy?
-
-✅ **Expert-Led Training**: Learn from industry professionals with real-world experience
-
-✅ **Hands-On Projects**: Build actual applications, not just tutorials
-
-✅ **Community Support**: Join a network of learners and professionals
-
-✅ **Career Guidance**: From portfolio building to job placement assistance
-
-✅ **Cutting-Edge Curriculum**: Stay updated with the latest tech trends
-
-Ready to join our community? **[Start your journey with CodeWithTy](https://codewithty.dev/contact)**
-
-## 📝 More Resources
-
-### Learning Resources
-
-- [CodeWithTy Academy](https://codewithty.dev/academy) - Comprehensive tech courses
-- [Next.js Documentation](https://nextjs.org/docs) - Framework documentation
-- [Framer Motion Guide](https://www.framer.com/motion/) - Animation library
-- [TailwindCSS Docs](https://tailwindcss.com/docs) - Styling framework
-
-### Support
-
-- 📧 Email: [hello@codewithty.dev](mailto:hello@codewithty.dev)
-- 🌐 Website: [codewithty.dev](https://codewithty.dev)
-- 📱 Follow us on social media for tips and updates
-
----
-
-## 🤝 Contributing
-
-We love contributions from our community! Whether it's:
-
-- 🐛 Bug fixes
-- ✨ New features
-- 📖 Documentation improvements
-- 🎨 Design enhancements
-
-Feel free to open issues and submit pull requests. Let's build amazing things together!
-
-## 📄 License
-
-This project is licensed under the CWT License.
-
----
-
-<div align="center">
-  
-  <p><em>"Empowering the next generation of tech innovators"</em></p>
-  
-  <a href="https://codewithty.dev">
-    <img src="https://img.shields.io/badge/Visit%20CodeWithTy-FF6B6B?style=for-the-badge&logo=globe&logoColor=white" alt="Visit CodeWithTy" />
-  </a>
-</div>
+- Built with [Next.js](https://nextjs.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- Animated with [Framer Motion](https://www.framer.com/motion/)
+- Deployed on [Vercel](https://vercel.com/)
