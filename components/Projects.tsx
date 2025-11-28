@@ -10,7 +10,7 @@ const Projects = () => {
       <Reveal>
          <h3>
           Recent{" "}
-          <span className="bg-gradient-to-r from-purple to-red-700 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-colour1 to-colour2 bg-clip-text text-transparent">
             projects.</span>
         </h3>
       </Reveal>

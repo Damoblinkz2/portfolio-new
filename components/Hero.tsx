@@ -17,19 +17,18 @@ const Hero = () => {
         <Reveal>
           <h1 className="text-center text-4xl md:text-6xl lg:text-8xl font-extrabold">
             Hey, I&apos;m {""}
-            <span className="bg-gradient-to-r from-purple to-red-700 bg-clip-text text-transparent">
-             John Doe
+            <span className="bg-gradient-to-r from-colour1 to-colour2 bg-clip-text text-transparent">
+              Adedamola Olatunji
             </span>
           </h1>
         </Reveal>
         <h2 className="title my-6 text-xl md:text-3xl lg:text-5xl">
-          I&apos;m a CWT Developer
+          I&apos;m a fullstack Developer
         </h2>
         <p className="max-w-[700px] mx-auto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          officiis, eum modi inventore natus velit voluptates laudantium nam
-          dicta? Et, sint sed? Ab consequuntur commodi et beatae animi
-          repellendus officia!
+          I&apos;m a passionate Full-Stack Developer with over 3 years of
+          hands-on experience building scalable web applications, intuitive
+          mobile apps, and efficient backend APIs.
         </p>
         <a className="mt-10 mx-auto" href="#contact">
           <Button

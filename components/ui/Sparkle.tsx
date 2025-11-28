@@ -25,26 +25,18 @@ export function Sparkle({
   className = "",
   ...otherProps
 }: SparkleProps) {
-
   return (
     <Component
       className="relative bg-transparent text-xl p-[1px] overflow-hidden rounded-3xl"
       {...otherProps}
     >
-      <div
-        className="absolute inset-0 rounded-3xl"
-      >
+      <div className="absolute inset-0 rounded-3xl">
         <SparkleBox duration={duration} rx="30%" ry="30%">
-          <div
-            className="h-20 w-20 opacity-80 bg-[radial-gradient(purple_70%,transparent_80%)] "
-          />
+          <div className="h-20 w-20 opacity-80 bg-[radial-gradient(#00a100ff_70%,transparent_80%)] " />
         </SparkleBox>
       </div>
       <div
-        className={cn(
-          "relative rounded-3xl flex items-center justify-center w-full h-full text-sm text-white border border-white/[0.1] bg-purple-900/[0.5] backdrop-blur-xl",
-          className
-        )}
+        className={`relative rounded-3xl flex items-center justify-center w-full h-full text-sm text-white border border-white/[0.1]  backdrop-blur-xl ${className}`}
       >
         {children}
       </div>
@@ -78,11 +70,13 @@ export const SparkleBox = ({
     }
   });
 
-  const x = useTransform(progress, (val) =>
-    pathRef.current?.getPointAtLength(val).x
+  const x = useTransform(
+    progress,
+    (val) => pathRef.current?.getPointAtLength(val).x
   );
-  const y = useTransform(progress, (val) =>
-    pathRef.current?.getPointAtLength(val).y
+  const y = useTransform(
+    progress,
+    (val) => pathRef.current?.getPointAtLength(val).y
   );
 
   const transform = useMotionTemplate`translateX(${x}px) translateY(${y}px) translateX(-50%) translateY(-50%)`;
@@ -95,7 +89,14 @@ export const SparkleBox = ({
         preserveAspectRatio="none"
         {...otherProps}
       >
-        <rect ref={pathRef} fill="none" width="100%" height="100%" rx={rx} ry={ry} />
+        <rect
+          ref={pathRef}
+          fill="none"
+          width="100%"
+          height="100%"
+          rx={rx}
+          ry={ry}
+        />
       </svg>
       <motion.div
         style={{
