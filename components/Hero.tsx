@@ -26,9 +26,10 @@ const Hero = () => {
           I&apos;m a fullstack Developer
         </h2>
         <p className="max-w-[700px] mx-auto">
-          I&apos;m a passionate Full-Stack Developer with over 3 years of
-          hands-on experience building scalable web applications, intuitive
-          mobile apps, and efficient backend APIs.
+          With adequate years of full-stack development experience, I deliver
+          scalable web platforms, intuitive mobile experiences, and reliable
+          backend APIs that help teams move faster, improve product quality, and
+          bring ideas to market efficiently.
         </p>
         <a className="mt-10 mx-auto" href="#contact">
           <Button

@@ -15,11 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link
-          rel="icon"
-          href="https://codewithty.dev/images/logo.png"
-          sizes="any"
-        />
+        <link rel="icon" href="assets/zippbot.png" sizes="any" />
       </head>
       <body className={`${poppins.className}`}>{children}</body>
     </html>
@@ -54,7 +50,7 @@ export const metadata: Metadata = {
     icon: "./favicon.ico",
     apple: "./apple-touch-icon.png",
   },
-  applicationName: "CodeWithTy Portfolio Template",
+  applicationName: "Portfolio Template",
   generator: "Next.js",
   referrer: "origin",
   creator: "Damoblinkz",

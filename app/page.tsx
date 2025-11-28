@@ -12,7 +12,6 @@ import NavBar from "@/components/ui/NavBar";
 const Home = () => {
   return (
     <main className="h-screen bg-[#06402b] flex">
-      {/* <main className="h-screen bg-[#120012] flex"> */}
       <NavBar />
       <div className="w-full overflow-y-auto mx-auto overflow-hidden">
         <div className="px-5 md:px-10 lg:px-40">

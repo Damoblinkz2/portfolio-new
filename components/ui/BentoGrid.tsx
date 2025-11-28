@@ -40,20 +40,20 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
   titleClassName,
   techs,
 }) => (
-  <div className="row-span-1 relative overflow-hidden rounded-3xl border border-white/10 group/bento hover:shadow-xl transition duration-200 space-y-4 lg:col-span-2 md:col-span-3">
-    {/* <div> */}
-    <div className="flex flex-col justify-between">
+  <div
+    key={id}
+    className={`row-span-1 relative overflow-hidden rounded-3xl border border-white/10 group/bento hover:shadow-xl transition duration-200 space-y-4 lg:col-span-2 md:col-span-3`}
+  >
+    <div className="flex flex-col justify-between h-full">
       {img && (
         <div className="w-full">
           <img
             src={img}
             alt={`Image for ${title}`}
-            className="object-cover object-center opacity-20 w-full"
+            className="object-cover object-center w-full"
           />
         </div>
       )}
-
-      {/* <div className="absolute right-0 -bottom-5"/> */}
 
       <div className="group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 py-5 lg:py-10">
         <div className="flex items-end gap-5">
