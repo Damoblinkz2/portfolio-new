@@ -7,7 +7,7 @@ export const navItems = [
 
 export const myTechStack = [
   "HTML/CSS",
-  "JavaScript (ES6+)",
+  "JavaScript",
   "React/NextJs",
   "SCSS & Tailwind",
   "TypeScript",
@@ -57,7 +57,7 @@ export const projects = [
       "NestJs",
       "MongoDB",
       "Tailwind",
-      "leaflet map",
+      "Leaflet map",
     ],
   },
   {
