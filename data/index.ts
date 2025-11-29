@@ -47,9 +47,9 @@ export const projects = [
     description:
       "A travel diary app to log you travel history & experience around the world. This project helped sharpen my fullstack dev skill to build production level webapps.",
     // titleClassName: "justify-end",
-    img: "assets/zippbot.png",
-    github: "https://github.com/codewithty",
-    link: "https://www.instagram.com/codewithty",
+    img: "assets/travornal.png",
+    github: "https://github.com/damoblinkz2/travornal",
+    link: "https://travornal.vercel.app",
     techs: [
       "JavaScript",
       "React",
