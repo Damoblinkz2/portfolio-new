@@ -29,9 +29,9 @@ export const projects = [
     title: "Internflare Jobs",
     description: "An in-house job management plaform for internflare interns",
     // titleClassName: "justify-end",
-    img: "assets/zippbot.png",
-    // github: "https://github.com/codewithty",
-    link: "https://www.instagram.com/codewithty",
+    img: "assets/internflare.png",
+    github: "https://github.com/damoblinkz2/internflare-backend",
+    // link: "https://www.instagram.com/codewithty",
     techs: [
       "JavaScript",
       "React",
@@ -84,8 +84,8 @@ export const projects = [
       "A modern, responsive e-commerce platform for high-quality audio products, built with React, Vite, and Convex. This project showcases a full-stack application featuring product browsing, detailed views, shopping cart functionality, and a seamless checkout process.",
     titleClassName: "justify-between",
     img: "assets/audiophile.png",
-    github: "https://github.com/codewithty",
-    link: "https://codewithty.dev",
+    github: "https://github.com/damoblinkz2/audiophile",
+    link: "https://audiophile-bice-nu.vercel.app/",
     techs: ["TypeScript", "React", "Convex", "Tailwind", "AWS", "GitHub"],
   },
   {
@@ -94,9 +94,9 @@ export const projects = [
     description:
       "A modern, responsive React application for searching and tracking movies. Built with React, this app allows users to search for movies using the OMDB API, view detailed information, and maintain a personal watched list with ratings.",
     // titleClassName: "justify-start",,
-    img: "assets/mapin.png",
+    img: "assets/usepopcorn.png",
     github: "https://github.com/Damoblinkz2/usePopcorn",
-    link: "https://use-popcorn-rho-ten.vercel.app/",
+    link: "https://use-popcorn-damo.vercel.app/",
     techs: ["JavaScript", "OMDB api", "Bootstrap", "React", "vercel", "GitHub"],
   },
   {
