@@ -116,7 +116,7 @@ export const workExperience = [
     id: 1,
     company: "Internflare",
     title: "Fullstack dev.",
-    desc: "Collaborate with teammates to build UI and functional Api's for production, i workerd as a fullstack dev building the backend infrastructure and contributing to the frontend UI development",
+    desc: "Collaborate with teammates to build UI and functional Api's for production, i worked as a fullstack dev building the backend infrastructure and contributing to the frontend UI development",
     className: "",
     // className: "md:col-span-2",
     location: "Remote",
