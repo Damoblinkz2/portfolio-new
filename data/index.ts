@@ -126,7 +126,9 @@ export const workExperience = [
     location: "Remote",
     period: "Nov 2025 - Present",
     skills: [
-      "Figma",
+      "Socket.io",
+      "MongoDB",
+      "Team Collaboration",
       "ReactJs",
       "Nodejs",
       "Usability Testing",
