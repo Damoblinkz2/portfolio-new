@@ -26,19 +26,23 @@ export const myTechStack = [
 export const projects = [
   {
     id: 1,
-    title: "Internflare Jobs",
-    description: "An in-house job management plaform for internflare interns",
+    title: "Internflare Workspace",
+    description:
+      "A comprehensive webapp for managing interns, tasks, chat rooms, and user accounts in an internship management system. It help reduce manual work and increase productivity for both interns and employers by providing a centralized platform for communication, task management, and performance tracking.",
     // titleClassName: "justify-end",
     img: "assets/internflare.png",
     github: "https://github.com/damoblinkz2/internflare-backend",
-    // link: "https://www.instagram.com/codewithty",
+    link: "https://internflare.net",
     techs: [
       "JavaScript",
+      "TypeScript",
+      "Aws",
       "React",
       "NodeJS",
       "ExpressJs",
       "MongoDB",
       "Tailwind",
+      "Socket.io",
     ],
   },
   {
